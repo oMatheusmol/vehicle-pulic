@@ -1,0 +1,36 @@
+<mat-card>
+<mat-expansion-panel>
+  <mat-expansion-panel-header>
+<label>Pesquisar veículo</label><br>
+  </mat-expansion-panel-header>
+  <mat-label >Todos os veículos</mat-label>
+  <button (click)="getAllVehicles()">Pesquisar</button><br>
+  <mat-label >Placa</mat-label><br>
+  <mat-form-field appearance="outline">
+      <input matInput type="text" class="placa" #placa>
+  </mat-form-field><button (click)="getplaca()">Pesquisar</button><br>
+  <mat-label>Chassi</mat-label><br>
+  <mat-form-field appearance="outline">
+      <input matInput type="text" class="chassi" #chassi><br>
+  </mat-form-field><button (click)="getchassi()">Pesquisar</button><br>
+  <mat-label>Renavam</mat-label><br>
+  <mat-form-field appearance="outline">
+      <input matInput type="text" class="renavam" #renavam><br>
+  </mat-form-field><button (click)="getrenavam()">Pesquisar</button><br>
+  <mat-label>Modelo</mat-label><br>
+  <mat-form-field appearance="outline">
+      <input matInput type="text" class="modelo" #modelo><br>
+  </mat-form-field><button (click)="getmodelo()">Pesquisar</button><br>
+  <mat-label>Marca</mat-label><br>
+  <mat-form-field appearance="outline">
+      <input matInput type="text" class="marca" #marca><br>
+  </mat-form-field><button (click)="getmarca()">Pesquisar</button><br>
+  <mat-label>Ano</mat-label><br>
+  <mat-form-field appearance="outline">
+      <input matInput type="text" class="ano" #ano><br>
+  </mat-form-field><button (click)="getano()">Pesquisar</button><br>
+</mat-expansion-panel>
+</mat-card>
+
+
+

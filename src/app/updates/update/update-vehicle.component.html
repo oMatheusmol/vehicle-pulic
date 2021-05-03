@@ -1,0 +1,36 @@
+<mat-card>
+<mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <label>Atualizar Veículo</label><br>
+  </mat-expansion-panel-header>
+  <mat-label >Placa</mat-label><br>
+  <mat-form-field appearance="outline">
+      <input matInput type="text" class="placa" #placa><br>
+  </mat-form-field><br>
+  <mat-label>Chassi</mat-label><br>
+  <mat-form-field appearance="outline">
+      <input matInput type="text" class="chassi" #chassi><br>
+  </mat-form-field><br>
+  <mat-label>Renavam</mat-label><br>
+  <mat-form-field appearance="outline">
+      <input matInput type="text" class="renavam" #renavam><br>
+  </mat-form-field><br>
+  <mat-label>Modelo</mat-label><br>
+  <mat-form-field appearance="outline">
+      <input matInput type="text" class="modelo" #modelo><br>
+  </mat-form-field><br>
+  <mat-label>Marca</mat-label><br>
+  <mat-form-field appearance="outline">
+      <input matInput type="text" class="marca" #marca><br>
+  </mat-form-field><br>
+  <mat-label>Ano</mat-label><br>
+  <mat-form-field appearance="outline">
+      <input matInput type="text" class="ano" #ano><br>
+  </mat-form-field><br>
+
+<button (click)="updateVehicle(placa,chassi,renavam,modelo,marca,ano)" >Atualizar</button>
+
+</mat-expansion-panel>
+</mat-card>
+
+
